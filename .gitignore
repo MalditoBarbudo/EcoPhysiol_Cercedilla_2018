@@ -6,3 +6,4 @@ rafa_otras/
 sites_rafa.RData
 tidy_metrics.RData
 tidy_metrics_plant.RData
+*.RData

@@ -183,7 +183,7 @@ tidy_metrics_taxonized %>%
   # facet_wrap(~ pl_species, ncol = 3) +
   scale_colour_viridis(discrete = TRUE, option = 'C') +
   labs(
-    colour = '', size = '',
+    colour = '', size = 'Basal Area',
     x = 'DBH [cm]',
     y = 'Jt max [cm3/day]',
     title = 'Maximum daily flow responses to DBH',

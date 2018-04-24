@@ -1,0 +1,171 @@
+/* title slide */
+.title-slide {
+  font-family: "Cabin Sketch", sans-serif;
+}
+
+.title-slide hgroup h1 {
+  color: #02401B;
+}
+
+.title-slide hgroup h2 {
+  color: #02401B;
+}
+
+.title-slide hgroup p {
+  color: #02401B;
+}
+
+slides > slide.current .gdbar {
+  /*
+  background: -webkit-linear-gradient(left, #02401B, #02401B) no-repeat;
+  background-color: #02401B;
+  */
+  transition: all 0s ease 0s;
+  background: #D8B70A;
+}
+
+/* normal */
+slides > slide {
+   font-family: "Raleway", sans-serif;
+}
+
+h2, h3, strong, a {
+  font-family: "Cabin Sketch", sans-serif;
+  font-size: 135%;
+}
+
+h2 {
+  color: #D8B70A;
+}
+
+h3 {
+  color: #972D15;
+}
+
+strong {
+  color: #972D15;
+  font-size: 120%;
+}
+
+/* title section */
+
+.titlesection p {
+  font-family: "Cabin Sketch", sans-serif;
+  color: #D8B70A;
+  font-size: 100%;
+}
+
+/* code */
+
+pre {
+  font-family: 'Hack', monospace;
+  background: #002b36;
+  border-radius: 0px 5px 5px 0px;
+  color: #839496;
+}
+
+pre .comment,
+pre .template_comment,
+pre .diff .header,
+pre .doctype,
+pre .pi,
+pre .lisp .string,
+pre .javadoc {
+  color: #586e75;
+  font-style: italic;
+}
+
+pre .keyword,
+pre .winutils,
+pre .method,
+pre .addition,
+pre .css .tag,
+pre .request,
+pre .status {
+  color: #859900;
+}
+
+pre .number,
+pre .command,
+pre .string,
+pre .tag .value,
+pre .phpdoc,
+pre .tex .formula,
+pre .regexp,
+pre .hexcolor {
+  color: #2aa198;
+}
+
+pre .title,
+pre .localvars,
+pre .chunk,
+pre .decorator,
+pre .builtin,
+pre .built_in,
+pre .identifier,
+pre .title .keymethods,
+pre .vhdl .literal,
+pre .id {
+  color: #268bd2;
+}
+
+pre .attribute,
+pre .variable,
+pre .instancevar,
+pre .lisp .body,
+pre .smalltalk .number,
+pre .constant,
+pre .class .title,
+pre .parent,
+pre .haskell .type {
+  color: #b58900;
+}
+
+pre .preprocessor,
+pre .preprocessor .keyword,
+pre .shebang,
+pre .symbol,
+pre .diff .change,
+pre .special,
+pre .keymethods,
+pre .attr_selector,
+pre .important,
+pre .subst,
+pre .cdata {
+  color: #cb4b16;
+}
+
+pre .deletion {
+  color: #dc322f;
+}
+
+pre .tex .formula {
+  background: #073642;
+}
+
+/*
+.prettyprint {
+  background: #002b36;
+}
+*/
+
+/* code two columns */
+
+.twocol pre {
+  display: inline-block;
+}
+
+/* footer */
+slides > slide:not(.nobackground):after {
+  color: #02401B;
+  font-family: "Cabin Sketch", sans-serif;
+  font-size: 20px;
+}
+
+slides > slide:not(.nobackground):before {
+  width: 48px;
+  height: 48px;
+  background-size: 48px 48px;
+}
+
+
